@@ -14,6 +14,8 @@ audience_tooltip: SuperOffice Service
 # New and improved Service
 
 * [Request - Reply tools in Request properties (11.2)][2]
+* [Request - Pin request lists to the tab bar (11.2)][2]
+* [Request - Show all linked contacts (11.2)][2]
 * [Request - Search will give same result as in navigator search (11.1)][1]
 
 <!-- Referenced links-->

@@ -28,6 +28,8 @@ Check out our **Product release** overview for more details in our [Community][3
 * 11.2 (17.06.2025):
   * [Selection - Board view for sales][4] in Core CRM and Sales
   * [Request - Reply tools in Request properties][5] in Service
+  * [Request - Pin request lists to the tab bar (11.2)][5] in Service
+  * [Request - Show all linked contacts (11.2)][5] in Service
 
 * 11.1 (09.06.2025):
   * [System design - Setting a field as read-only][1] in Settings and maintenance
