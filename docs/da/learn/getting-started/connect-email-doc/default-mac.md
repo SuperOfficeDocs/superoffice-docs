@@ -4,8 +4,8 @@ title: SuperOffice som din løsning (macOS)
 description: Sådan forbinder du din e-mailkonto, dokumenter og kalender til SuperOffice på macOS.
 keywords: e-mail, document, kalender, invitation, mac
 author: Bergfrid Dias
-date: 08.28.2023
-version: 10
+date: 05.28.2025
+version: 10.5
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -25,7 +25,7 @@ Dette er den standardmæssige måde at forbinde din e-mailkonto, dokumenter og k
 
 Vælg en af følgende muligheder:
 
-* [SuperOffice Inbox][1] (standard). [Se denne video for at komme i gang][10].
+* [SuperOffice Inbox][1] (standard).
 
 * [!include[SuperOffice for Outlook](includes/why-superoffice-for-outlook.md)]
 
@@ -50,4 +50,3 @@ Vælg en af følgende muligheder:
 [1]: ../../../email/inbox/learn/setup.md
 [2]: ../../../webtools/learn/install-mac.md
 [9]: default-win.md
-[10]: https://www.youtube.com/embed/QoAanZgQs5A

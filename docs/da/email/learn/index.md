@@ -21,7 +21,7 @@ Indbakkefunktionen i SuperOffice CRM afhænger af den SuperOffice-klient og e-ma
 
 * [SuperOffice Indbakke][1]
 * [Gmail Link][2] – SuperOffice Gmail Link
-* [SuperOffice Mail Link][6] - SuperOffice Mail Link (integration med Outlook og Notes)
+* [SuperOffice Mail Link][6] - SuperOffice Mail Link (integration med Outlook)
 
 ## Send en e-mail
 

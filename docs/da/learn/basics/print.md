@@ -67,6 +67,6 @@ De generelle trin for udskrivning af en post i SuperOffice CRM er stort set de s
 [1]: ../getting-started/main-screen/navigator.md
 [2]: ../../search-options/selection/learn/howto/print.md
 [3]: ../../search-options/selection/learn/howto/print-labels.md
-[4]: ../../email/inbox/learn/print.md
+[4]: ../../email/inbox/learn/preview.md#print
 
 <!-- Referenced images -->

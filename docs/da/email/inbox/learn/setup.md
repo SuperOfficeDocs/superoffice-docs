@@ -1,90 +1,118 @@
 ---
 uid: help-da-email-inbox-setup
 title: Opsætning af SuperOffice Indbakke
-description: SuperOffice-indbakken er en alternativ måde at forbinde din e-mail til din SuperOffice CRM til e-mailklienter, der ikke kan forbindes via WebTools. Lær, hvordan du konfigurerer det og logger ind første gang.
-keywords: e-mail, indbakke
-author: SuperOffice Product and Engineering
-date: 05.12.2025
-version: 10.4
-topic: howto
+description: Lær, hvordan du opsætter og logger ind i SuperOffice Indbakke. Denne funktion er et alternativ til WebTools for at forbinde din e-mailkonto til SuperOffice CRM.
+keywords: SuperOffice Indbakke, opsæt indbakke, e-mailopsætning, IMAP, e-mailforbindelse
+author: Bergfrid Dias
+date: 05.28.2025
+version: 10.5
+topic: concept
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: da
 ---
 
 # Opsætning af SuperOffice Indbakke
 
-SuperOffice-indbakken er en alternativ måde at forbinde din e-mail til din SuperOffice CRM til e-mailklienter, der ikke kan forbindes via WebTools.
+SuperOffice Indbakke er en alternativ metode til at forbinde din e-mailkonto med SuperOffice CRM. Den er designet til brugere, der ikke kan bruge [WebTools][9]. Indbakken understøtter kun IMAP-konti.
+
+> [!NOTE]
+> SuperOffice Indbakke understøtter kun **én** e-mailkonto pr. bruger. Hvis WebTools er installeret og forbundet til din e-mail, er Indbakke-funktionen ikke tilgængelig.
 
 ## Før du starter
 
-* Sørg for, at IMAP er aktiveret i din e-mail-klient. SuperOffice Inbox understøtter de fleste IMAP-mailservere.
+* Kontrollér, at **SuperOffice CRM** er valgt som din [foretrukne e-mailklient][8] under **Lokale indstillinger**.
 
-* For at kunne sende e-mails fra SuperOffice CRM skal du sørge for, at den e-mailadresse, du skal bruge med SuperOffice-indbakken, er den samme som den første e-mail, der er registreret på dit visitkort/skærm.
+* Sørg for, at **IMAP er aktiveret** i din e-mailklient.
 
-![Du kan kontrollere, hvilken e-mail du har registreret på dit kontaktkort -screenshot][img2]
+* Bekræft, at den **e-mailadresse**, du vil bruge, matcher den primære e-mailadresse, der er registreret på dit [personkort][1] i SuperOffice.
 
-## Konfigurer e-mailkonto
+## Tilslut din e-mailkonto
 
-For at få adgang til e-mail skal du først angive detaljer om din e-mail-konto.
+1. Klik på <i class="ph ph-at" aria-hidden="true"></i> **Indbakke** i navigatoren.
 
-<!-- Prev YT video tag QoAanZgQs5A -->
+    Første gang du åbner indbakken, vises dialogboksen **Konfigurer e-mailkonto**.
 
-1. Klik på ikonet Indbakke i navigatormenuen. Skærmbilledet **Konfigurer e-mail-konto** vises, første gang du åbner indbakken.
+    ![Dialogboksen Konfigurer e-mailkonto med e-mailfelt og Næste-knap -screenshot][img1]
 
-1. Indtast e-mailadresseni for den konto, du vil bruge i SuperOffice, i feltet **E-mailkonto**.
+1. Indtast den e-mailadresse, du vil bruge, i feltet **E-mailkonto**.
 
-    ![x -screenshot][img3]
+1. Klik på **Næste**.
 
-1. Hvis du vil angive oplysninger om indgående og udgående e-mail, skal du klikke på **Avancerede indstillinger**. Hvis ikke, skal du klikke på **Næste**. SuperOffice vil derefter forsøge at konfigurere disse oplysninger for dig.
+    * SuperOffice forsøger at identificere din e-mailudbyder og viderestille dig til login.
+    * Hvis din adgangskode er gemt hos udbyderen, kan godkendelsen gennemføres automatisk.
+    * Hvis ikke, bliver du bedt om at indtaste adgangskoden direkte hos udbyderen (f.eks. Microsoft eller Google).
+    * Efter vellykket godkendelse returneres du til SuperOffice, og indbakken åbnes.
 
-1. Indtast din adgangskode i feltet **Adgangskode**.
+1. Hvis godkendelsen mislykkes, eller udbyderen ikke kan identificeres, vises dialogboksen **Avancerede indstillinger**. Du kan så indtaste serveroplysninger manuelt.
 
-1. Klik på **Log ind**.
+## Konfigurer avancerede indstillinger
 
-    * Hvis SuperOffice genkender e-mail-udbyderen (f.eks. Gmail), konfigureres serverindstilingerne automatisk og indbakken indlæses.
-    * Hvis oplysningerne ikke er korrekte, eller hvis den indtastede e-mail-adresse og adgangskode ikke er korrekte, åbnes dialogboksen **Avancerede indstillinger** . Angiv eller kontroller konfigurationsoplysninger for indgående og udgående servere manuelt.
+Hvis automatisk opsætning mislykkes, skal du indtaste dine e-mailserveroplysninger manuelt. Alle påkrævede felter skal udfyldes for at sikre, at e-mail kan sendes og modtages via SuperOffice Indbakke.
 
-## Sådan tilføjes serveroplysninger manuelt
+1. Indtast oplysninger for indgående e-mail:
 
-### Indstillinger for indgående mail
+    * **Server for indgående e-mail:** Din IMAP-serveradresse
+    * **Brugernavn:** Normalt din fulde e-mailadresse
+    * **Adgangskode:** Adgangskoden til din e-mailkonto
+    * **SSL:** Slå til eller fra afhængigt af udbyderens krav
 
-For at få dine e-mails importeret til SuperOffice CRM skal du indtaste dine IMAP-serveroplysninger, der findes i din e-mailklients indstillinger.
+1. Indtast oplysninger for udgående e-mail:
 
-* Brugernavn: din fulde e-mailadresse
-* Adgangskode: adgangskoden til din e-mailkonto
-* SSL: Til/Fra - afhænger af din e-mailudbyders indstillinger (se indstillinger for Outlook og Gmail)
+    * **Server for udgående e-mail:** Din SMTP-serveradresse
+    * **Brugernavn**, **Adgangskode** og **SSL**: som ovenfor
 
-### Indstillinger for udgående e-mail
+1. Klik på **Gem** for at tilslutte din konto.
 
-Hvis du vil sende e-mails fra SuperOffice CRM, skal du indtaste dine SMTP-serveroplysninger.
+![Avancerede indstillinger for e-mailkonto -screenshot][img4]
 
-* Brugernavn: din fulde e-mailadresse
-* Adgangskode: adgangskoden til din e-mailkonto
-* SSL: afhænger af din e-mailudbyders indstillinger (se indstillinger for Outlook og Gmail)
+## Fjern eller skift din e-mailkonto
 
-![Avancerede indstillinger - gå til Indbakke for manuelt at tilføje korrekte e-mail-serveroplysninger -screenshot][img4]
+Du kan fjerne din nuværende e-mailkonto og eventuelt opdatere den ved at oprette forbindelse igen.
 
-## Skift mailkonfiguration i SuperOffice Inbox
+1. Klik på <i class="ph ph-user-circle" aria-label="Personlige indstillinger"></i> i topbjælken og vælg **E-mailindstillinger**.
 
-1. Hvis du vil redigere eller fjerne din tilknyttede e-mail-konto, skal du klikke på dit profilikon i øverste højre hjørne og vælge **E-mail-indstillinger**.
+1. Gå til fanen **E-mailkonto**.
 
-    ![Indstillinger for e-mail -screenshot][img5]
+    ![Fanen E-mailkonto med knappen Rediger/fjern -screenshot][img6]
 
-1. Vælg fanen **E-mailkonto**, og tryk på knappen **Rediger/fjern**.
+1. Klik på **Rediger/fjern** for at afbryde forbindelsen til den aktuelle e-mailkonto.
 
-    ![Indstillinger for e-mail -screenshot][img6]
+    * Dette åbner den samme opsætningsdialog som ved første tilslutning.
+    * Hvis du blot vil fjerne forbindelsen, skal du lukke dialogen.
+    * For at oprette forbindelse igen skal du indtaste en ny e-mailadresse og følge opsætningsvejledningen.
 
-## Hvorfor opdateres e-maillisten ikke?
+> [!NOTE]
+> Fjernelse af e-mailkontoen sletter **ikke** din faktiske e-mailkonto (f.eks. din Gmail- eller Outlook-konto). Den afbryder kun forbindelsen til SuperOffice.
 
-Nogle e-mailudbydere, f.eks. Gmail, blokerer fosøg på login fra ukendte apps. Tjek din indbakke for at se, om din e-mailudbyder har sendt dig oplysninger om et uautoriseret forsøg på at logge ind. Følg instruktionerne i e-mailen for at give SuperOffice adgang til din konto.
+## Fejlfinding
+
+* SuperOffice Indbakke understøtter **ikke POP3**-konti. Kun IMAP er understøttet.
+
+* Hvis indbakken ikke opdateres, kan det skyldes, at e-mailudbyderen blokerer forbindelsen.
+  * Kontrollér din e-mailkonto for en besked om blokeret eller uautoriseret loginforsøg.
+  * Følg instruktionerne for at give SuperOffice adgang til din konto.
+
+* **Gmail-brugere:** Fra januar 2025 er IMAP permanent aktiveret som standard. Hvis du bliver bedt om en adgangskode, skal du bruge en **app-adgangskode** i stedet for din almindelige Gmail-adgangskode.
 
 > [!TIP]
-> Hvis du vil have adgang til e-mailindstillingerne, skal du gå til <i class="ph ph-user-circle" aria-hidden="true"></i> **Personlige indstillinger** > **E-mailindstillinger**.
+> Hvis du vil justere layout, skrifttype eller opførsel for meddelelser, skal du gå til <i class="ph ph-user-circle" aria-hidden="true"></i> **Personlige indstillinger** > **E-mailindstillinger** > fanen **Generelt**.
+
+## Relateret indhold
+
+* [Sådan aktiveres IMAP på Office 365-konto][11] – FAQ
+* [Sådan genereres en Google-appadgangskode til brug af 2-trinsbekræftelse med SuperOffice Indbakke][12] – FAQ
+* [Skift standard e-mailklient i SuperOffice][8]
 
 <!-- Referenced links -->
+[1]: ../../../contact/learn/index.md
+[8]: ../../learn/change-default-mail-client.md
+[9]: ../../../webtools/learn/index.md
+[11]: https://learn.microsoft.com/en-au/exchange/troubleshoot/user-and-shared-mailboxes/pop3-imap-owa-activesync-office-365
+[12]: https://community.superoffice.com/en/support-faqs/faq/how-do-i-generate-a-googleapp-password-to-use-2-step-verification-with-superoffice-inbox/
 
 <!-- Referenced images -->
-[img2]: ../../../../media/loc/en/email/getstarted-contact-mycontactcard.png
-[img3]: ../../../../media/loc/en/email/getstarted-inbox-login.png
+[img1]: ../../../../media/loc/en/email/inbox-setup-dialog.png
 [img4]: ../../../../media/loc/en/email/so-inbox-advanced-settings.png
-[img5]: ../../../../media/loc/en/email/email-options-general.png
 [img6]: ../../../../media/loc/en/email/email-options-account.png
