@@ -7,6 +7,8 @@ author: SuperOffice AS – Product and Engineering
 date: 06.17.2025
 version: 11
 topic: reference
+audience: person
+audience_tooltip: SuperOffice CRM
 ---
 
 # What's new in SuperOffice 11
@@ -51,6 +53,8 @@ Check out the overview for of the [App Store][34] and all the [new or updated ap
 
 ### Developer Portal
 
+* 2.3 (11.06.2025): Bug fixing release
+
 * 2.2 (07.05.2025):
   * Introducing the [Publish Status widget][20], which shows all pending requests to publish app configurations, partner profiles, and App Store information.
 
@@ -60,7 +64,7 @@ Check out the overview for of the [App Store][34] and all the [new or updated ap
 
 ## Ongoing pilot programs
 
-* [See main overview][17] (available from 10.3.4 - 09.04.2024)
+* [See main overview][17] in Release notes
 
 <!-- Referenced links -->
 [1]: admin/11.1-update.md
