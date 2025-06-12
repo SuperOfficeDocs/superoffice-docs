@@ -1,47 +1,59 @@
 ---
 uid: help-da-email-inbox-senders
 title: Administrer afsendere med SuperOffice Indbakke
-description: Administrer afsendere med SuperOffice Indbakke
-author: SuperOffice RnD
-date: 07.04.2022
-keywords: e-mail
+description: Lær, hvordan du registrerer eller matcher ukendte afsendere i SuperOffice CRM
+keywords: ukendt afsender, afsender, tilføj person, e-mailheader, e-mailadresse, SuperOffice Indbakke, indbakke
+author: Bergfrid Dias
+date: 05.28.2025
+version: 10.5
 topic: howto
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: da
 ---
 
 # Administrer afsendere
 
-## Slå afsender op i SuperOffice
+SuperOffice Indbakke hjælper dig med at identificere og administrere e-mailafsendere. Hvis e-mailadressen ikke allerede er registreret i SuperOffice CRM, bliver du bedt om at tilføje den som en person. Du kan også slå afsenderoplysninger op eller registrere yderligere adresser direkte fra e-mailens header.
 
-Du kan nemt finde information om en afsender i SuperOffice CRM.
+## Slå kendt person op
 
-1. Vælg en mail i indbakken.
-2. Klik på afsenderens navn og e-mailadresse øverst i e-mailen.
-3. Det næste, der sker, afhænger af, om afsenderens e-mailadresse findes i SuperOffice:
-    * Hvis e-mailadressen findes på et firma/en person, vises firma-/personkortet.
-    * Hvis e-mailadressen er registreret ved mere en et firma eller en person, vises en dialogboks med en liste med alternativerne, hvor du kan vælge.
-    * Hvis mailadressen ikke er registreret i SuperOffice CRM, kan du klikke på **Opret nyt firma og kontakt**.
+Du kan se personoplysninger for afsendere og modtagere i e-mailheaderen.
 
-## Tilføj afsenderens e-mailadresse til en ny eller eksisterende person i SuperOffice
+* **Hold musen over** for at få vist en forhåndsvisning med navn, titel, firma og telefonnumre.
+* **Klik** for at åbne hele personkortet.
 
-1. Gå til indbakken.
+Hvis flere personer matcher e-mailadressen, vises en liste, hvor du kan vælge den rigtige.
 
-2. Vælg en meddelelse i indbakken.
+## Tilføj ukendt afsender til SuperOffice
 
-3. Klik på afsenderens navn og e-mailadresse øverst i e-mailen.
+Hvis afsenderen ikke genkendes, vises en gul bjælke over forhåndsvisningen.
 
-4. Klik på **Opret nyt firma og ny person**.
+1. Klik på linket **Ukendt afsender** i banneret for at åbne dialogboksen **Føj person til SuperOffice**.
 
-5. Vælg en af følgende indstillinger i dialogboksen**Føj person til SuperOffice**:
-    * Søg: Søg efter et firma eller en person, hvor du vil tilføje afsenderens e-mailadresse.
-    * **Denne person kan være ...** : SuperOffice prøver at matche afsenderen med eksisterende personer i databasen. Klik på en af de foreslåede personer, hvis den svarer til afsenderen.
-    * **Opret nyt firma og ny person**: Klik på denne knap, hvis afsenderen er en ny person fra et firma, der ikke tidligere er registreret i SuperOffice.
-    * **Tilføj ikke person til SuperOffice**: Hvis du arkiverer en e-mailmeddelelse eller opretter en opgave, kan du klikke på denne knap, hvis du ikke vil at registrere afsenderens e-mailadresse.
+    ![Gul banner med dialogboksen Føj person til -screenshot][img1]
 
-6. Udfyld de relevante felter, og klik på **Tilføj**.
+1. I dialogboksen kan du:
 
-Hvis du gemmer en e-mailmeddelelse eller opretter en opgave, åbnes dialogboksen **Dokument** eller **Opgave**.
+    * Søge efter en eksisterende person eller et firma.
+    * Vælge et firma matchet under **Denne person kan være ansat hos**, hvis forslag vises.
+    * Klikke på **Opret nyt firma og ny person** for at registrere begge, hvis afsenderen ikke allerede findes i SuperOffice CRM.
+
+    ![Dialogboksen Føj person til i SuperOffice Indbakke -screenshot][img2]
+
+> [!TIP]
+> Du kan også klikke på en ukendt e-mailadresse i headeren, inklusive *Cc* eller *Til*. Den samme dialog vises. Hvis domænet genkendes, vises matchende firmaer. Hvis ikke, kan du stadig søge eller oprette en ny post.
+
+## Relateret indhold
+
+* [Arkivér e-mails][2]
+* [Om personer][3]
 
 <!-- Referenced links -->
+[2]: archive.md
+[3]: ../../../contact/learn/index.md
 
 <!-- Referenced images -->
+[img1]: ../../../../media/loc/en/email/inbox-unknown-sender.png
+[img2]: ../../../../media/loc/en/email/inbox-add-contact.png

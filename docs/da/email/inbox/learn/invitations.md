@@ -1,37 +1,47 @@
 ---
 uid: help-da-email-inbox-invitations
-title: Modtagelse af invitationer
-description: Modtagelse af invitationer
-keywords: e-mail
-author: SuperOffice RnD
-date: 07.04.2022
+title: Accepter invitationer
+description: Lær, hvordan du accepterer kalenderinvitationer i SuperOffice Indbakke og tilføjer dem til din dagbog
+keywords: invitation, ical, ics, kalender, dagbog, accepter møde, accepter og underret, indbakke, opfølgning
+author: Bergfrid Dias
+date: 05.28.2025
+version: 10.5
 topic: howto
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: da
 ---
 
 # Accepter invitationer
 
-Du kan modtage invitationer fra en person uden for din organisation og nemt acceptere og tilføje den til din dagbog. Dette kræver, at invitations-e-mailen indeholder et iCal-arkiv (.ics.) med invitationsdataene. I din indbakke vises e-mails med iCal-invitationer med disse ikoner: <i class="ph ph-paperclip" aria-label="Paperclip"></i> og <i class="ph ph-calendar-blank" aria-label="Calendar"></i>.
+Du kan modtage kalenderinvitationer fra personer uden for din organisation og tilføje opfølgingen til din SuperOffice-dagbog. Invitationer skal indeholde en iCal-fil (`.ics`). E-mails med invitationer vises med disse ikoner:
+<i class="ph ph-paperclip" aria-label="Paperclip"></i>
+<i class="ph ph-calendar-blank" aria-label="Calendar"></i>
 
-> [!NOTE]
-> Hvis afsenderen/arrangøren er en registreret (en unik) person i SuperOffice CRM, tilføjes invitationer automatisk som foreløbige opfølginger i din dagbog. Foreløbige opfølginger kan også oprettes for andre medarbejdere, afhængigt af om indstillingen **Administrer indgående invitationer, deaktiver foreløbige** (under **E-mail**) er aktiv.
+Hvis mødearrangøren er en unik registreret person i SuperOffice CRM, tilføjes invitationen automatisk som en foreløbig opfølgning i din dagbog. Om dette sker for andre brugere afhænger af e-mailindstillinger i **Indstillinger og vedligeholdelse**.
 
-## Sådan accepterer du en invitation
+## Trin
 
-1. Gå til indbakken.
+1. Gå til indbakken, og vælg den e-mail, der indeholder invitationen.
 
-2. Vælg en meddelelse, der indeholder en invitation.
+1. Gennemgå eventuelle yderligere vedhæftede filer, før du accepterer.
 
-    > [!NOTE]
-    > Hvis meddelelsen indeholder vedhæftede filer (ud over iCal/ics-filen), som du vil beholde, skal du arkivere eller downloade dem, *før* du besvarer invitationen. Når du accepterer eller afviser invitationen, fjernes meddelelsen fra indbakken og sendes til mappen **Slettet**.
-    >
-    > Klik på pilen ud for den vedhæftede fil, du vil gemme, og vælg **Download** eller **Gem**.
+    > [!CAUTION]
+    > Når du accepterer eller afviser invitationen, fjernes e-mailen fra indbakken og flyttes til mappen **Slettet**. Hvis du vil beholde vedhæftede filer, skal du [arkivere eller downloade dem først][1].
 
-3. Klik på knappen **Accepter**.
+1. Klik på **Accepter**, og vælg en af følgende indstillinger:
 
-4. Vælg en af følgende valgmuligheder:
+    * **Accepter og giv afsenderen besked**
+    * **Accepter, men giv ikke afsender besked**
 
-    * Accepter og giv afsenderen besked
-    * Accepter, men giv ikke afsenderen besked
+Opfølgingen tilføjes til din dagbog, og meddelelsen fjernes fra indbakken.
 
-Meddelelsen fjernes fra indbakken, og opfølgingen føjes til din dagbog.
+## Relateret indhold
+
+* [Arkivér e-mails][1]
+* [Om invitationer][2]
+
+<!-- Referenced links -->
+[1]: archive.md#attachment
+[2]: ../../../diary/learn/invitation/index.md
