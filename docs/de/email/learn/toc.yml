@@ -3,7 +3,7 @@ items:
   href: index.md
 - name: Standard-E-Mail-Client in SuperOffice ändern
   href: change-default-mail-client.md
-- name: E-Mail
+- name: SuperOffice Posteingang
   href: ../inbox/learn/toc.yml
   topicHref: ../inbox/learn/index.md
 - name: SuperOffice für Outlook

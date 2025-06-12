@@ -71,7 +71,7 @@ Hvis automatisk opsætning mislykkes, skal du indtaste dine e-mailserveroplysnin
 
 Du kan fjerne din nuværende e-mailkonto og eventuelt opdatere den ved at oprette forbindelse igen.
 
-1. Klik på <i class="ph ph-user-circle" aria-label="Personlige indstillinger"></i> i topbjælken og vælg **E-mailindstillinger**.
+1. Klik på <i class="ph ph-user-circle" aria-label="Personlige indstillinger"></i> i toplinjen og vælg **E-mailindstillinger**.
 
 1. Gå til fanen **E-mailkonto**.
 
