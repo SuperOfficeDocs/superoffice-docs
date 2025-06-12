@@ -3,28 +3,17 @@ items:
   href: index.md
 - name: Konfigurera Inkorg
   href: setup.md
-- name: Alternativ för Inkorg
-  href: inbox-options.md
 - name: Visa e-postmeddelande
   href: preview.md
-- name: Arbeta med e-post
-  topicHref: compose.md
-  items:
-  - name: Skriva e-post
-    href: compose.md
-  - name: Hantera avsändare
-    href: manage-senders.md
-  - name: Flytta e-postmeddelande till mapp
-    href: move-email-to-folder.md
-  - name: Markera e-postmeddelanden som lästa/olästa
-    href: mark-as-read.md
-  - name: Acceptera förfrågning
-    href: invitations.md
-  - name: Arkivera e-post
-    href: archive.md
-  - name: Skapa uppgift
-    href: create-task.md
-  - name: Skapa ärende
-    href: create-request.md
-  - name: Skriva ut e-post
-    href: print.md
+- name: Skriva e-post
+  href: compose.md
+- name: Hantera avsändare
+  href: manage-senders.md
+- name: Acceptera förfrågning
+  href: invitations.md
+- name: Arkivera e-post
+  href: archive.md
+- name: Skapa uppgift
+  href: create-task.md
+- name: Skapa ärende
+  href: create-request.md
