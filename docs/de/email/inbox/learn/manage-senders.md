@@ -1,47 +1,59 @@
 ---
 uid: help-de-email-inbox-senders
 title: Absender mit SuperOffice Posteingang verwalten
-description: Absender mit SuperOffice Posteingang verwalten
-author: SuperOffice RnD
-date: 07.04.2022
-keywords: E-Mail
+description: Erfahren Sie, wie Sie unbekannte Absender in SuperOffice CRM registrieren oder zuordnen
+keywords: unbekannter Absender, Absender, Person hinzufügen, E-Mail-Kopfzeile, E-Mail-Adresse, SuperOffice Posteingang, Posteingang
+author: Bergfrid Dias
+date: 05.28.2025
+version: 10.5
 topic: howto
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: de
 ---
 
 # Absender verwalten
 
-## Absender in SuperOffice suchen
+Der SuperOffice Posteingang hilft Ihnen dabei, E-Mail-Absender zu identifizieren und zu verwalten. Wenn eine E-Mail-Adresse noch nicht in SuperOffice CRM registriert ist, werden Sie aufgefordert, sie als Person hinzuzufügen. Sie können außerdem Absenderdetails anzeigen oder zusätzliche Adressen direkt aus der E-Mail-Kopfzeile registrieren.
 
-Sie können in SuperOffice CRM problemlos Informationen zu einem Absender suchen.
+## Bekannte Person nachschlagen
 
-1. Wählen Sie im Posteingang eine E-Mail aus.
-2. Klicken Sie in der E-Mail-Kopfzeile auf Namen und E-Mail-Adresse des Absenders.
-3. Was dann geschieht, hängt davon ab, ob die E-Mail-Adresse des Absenders in SuperOffice gefunden wird:
-    * Wenn die E-Mail-Adresse für eine Firma/Person gefunden wird, wird die Karte der Firma/Person angezeigt.
-    * Wenn die E-Mail-Adresse für mehr als eine Firma bzw. eine Person erfasst wurde, erscheint ein Dialogfeld, in dem die Alternativen aufgelistet sind, aus denen Sie eine auswählen können.
-    * Wenn die E-Mail-Adresse nicht in SuperOffice CRM registriert ist, können Sie auf **Neue Firma und Person erstellen** klicken.
+Sie können Informationen zu Absendern und Empfängern in der E-Mail-Kopfzeile anzeigen.
 
-## E-Mail-Adresse eines Absenders zu einer neuen oder vorhandenen Person in SuperOffice hinzufügen
+* **Zeigen Sie mit der Maus** auf den Namen, um eine Vorschau mit Name, Position, Firma und Telefonnummer anzuzeigen.
+* **Klicken Sie** auf den Namen, um die vollständige Personenkarte zu öffnen.
 
-1. Gehen Sie zur Schaltfläche E-Mail.
+Wenn mehrere Personen zur E-Mail-Adresse passen, erscheint eine Liste zur Auswahl der richtigen Person.
 
-2. Wählen Sie eine E-Mail im Posteingang aus.
+## Unbekannten Absender zu SuperOffice hinzufügen
 
-3. Klicken Sie in der E-Mail-Kopfzeile auf Namen und E-Mail-Adresse des Absenders.
+Wenn der Absender nicht erkannt wird, erscheint oberhalb der Vorschau ein gelber Balken.
 
-4. Klicken Sie auf **Neue Firma und Person erstellen**.
+1. Klicken Sie auf den Link **Unbekannter Absender** in der Leiste, um das Dialogfeld **Person zu SuperOffice hinzufügen** zu öffnen.
 
-5. Wählen Sie im Dialogfeld **Person zu SuperOffice hinzufügen** eine der folgenden Optionen aus:
-    * Suchen: Suchen Sie nach einer Firma oder Person, zu der Sie die E-Mail-Adresse des Absenders hinzufügen wollen.
-    * **Es könnte sich handeln um...**: SuperOffice versucht, den Absender einer vorhandenen Person in der Datenbank zuzuordnen. Klicken Sie auf eine der vorgeschlagenen Personen, wenn diese mit dem Absender übereinstimmt.
-    * **Neue Firma und Person erstellen**: Klicken Sie auf diese Schaltfläche, wenn es sich beim Absender um eine neue Person einer Firma handelt, die noch nicht in SuperOffice registriert ist.
-    * **Person nicht zu SuperOffice hinzufügen**: Wenn Sie eine E-Mail archivieren oder eine Aufgabe erstellen und die E-Mail-Adresse des Absenders nicht registrieren wollen, können Sie auf diese Schaltfläche klicken.
+    ![Gelbe Leiste mit Dialog zum Hinzufügen von Person -screenshot][img1]
 
-6. Füllen Sie die relevanten Felder aus und klicken Sie auf **Hinzufügen**.
+1. Im Dialogfeld können Sie:
 
-Wenn Sie eine E-Mail archivieren oder eine Aufgabe erstellen, wird das Dialogfeld **Dokument** bzw. **Aufgabe** geöffnet.
+    * Nach einer vorhandenen Person oder Firma suchen.
+    * Unter **Diese Person könnte arbeiten bei** eine vorgeschlagene Firma auswählen, falls angezeigt.
+    * Auf **Neue Firma und Person erstellen** klicken, wenn der Absender noch nicht in SuperOffice CRM registriert ist.
 
-<!-- Referenced links -->
+    ![Dialog zum Hinzufügen von Person im SuperOffice Posteingang -screenshot][img2]
 
-<!-- Referenced images -->
+> [!TIP]
+> Sie können auch auf jede nicht erkannte E-Mail-Adresse in der Kopfzeile klicken, einschließlich *Cc* oder *An*. Es öffnet sich dasselbe Dialogfeld. Wenn die Domain bekannt ist, werden passende Firmen angezeigt. Andernfalls können Sie trotzdem suchen oder einen neuen Eintrag erstellen.
+
+## Verwandte Inhalte
+
+* [E-Mails archivieren][2]
+* [Über Personen][3]
+
+<!-- Referenzierte Links -->
+[2]: archive.md
+[3]: ../../../contact/learn/index.md
+
+<!-- Referenzierte Bilder -->
+[img1]: ../../../../media/loc/en/email/inbox-unknown-sender.png
+[img2]: ../../../../media/loc/en/email/inbox-add-contact.png
