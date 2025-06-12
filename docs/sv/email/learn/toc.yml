@@ -1,8 +1,6 @@
 items:
 - name: Översikt
   href: index.md
-- name: Skriva e-post
-  href: compose.md
 - name: Ändra standardklienten för e-post i SuperOffice
   href: change-default-mail-client.md
 - name: Inkorg

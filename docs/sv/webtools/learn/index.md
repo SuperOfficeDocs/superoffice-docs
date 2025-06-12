@@ -3,7 +3,7 @@ uid: help-sv-webtools
 title: WebTools
 description: Introduktion till SuperOffice WebTools.
 author: SuperOffice RnD, Miriam Eirin Hiorth Johnson, Bergfrid Dias
-date: 12.04.2023
+date: 28.05.2025
 keywords: WebTools, dokument, e-post, Mail Link
 topic: concept
 language: sv
@@ -76,7 +76,7 @@ Dubbelklicka på SuperOffice-ugglan i din verktygsfält för att öppna WebTools
 
 ## Relaterat innehåll
 
-* [Så här använder du inkorgen i SuperOffice][7] - FAQ
+* [Så här använder du inkorgen i SuperOffice][7]
 * [Koppla e-post, dokument och kalender][8]
 * [Spara ett e-postmeddelande i SuperOffice CRM][4]
 * [Skapa ett dokument i SuperOffice CRM][5]
@@ -88,7 +88,7 @@ Dubbelklicka på SuperOffice-ugglan i din verktygsfält för att öppna WebTools
 [3]: https://community.superoffice.com/no/support-faqs/faq/what-to-do-when-superoffice-archiving-button-has-disappeared-from-outlook/
 [4]: ../../email/learn/index.md
 [5]: ../../document/learn/create.md
-[7]: https://community.superoffice.com/no/support-faqs/faq/how-do-i-start-using-the-superoffice-inbox/
+[7]: ../../email/inbox/learn/index.md
 [8]: ../../learn/getting-started/connect-email-doc/index.md
 [9]: https://community.superoffice.com/en/product-releases/nyheter/produkt/document-locking/
 [10]: ../../../en/ui/soprotocol/index.md

@@ -1,90 +1,118 @@
 ---
 uid: help-sv-email-inbox-setup
 title: Konfigurera inkorgen i SuperOffice
-description: Inkorgen i SuperOffice är ett alternativt sätt att koppla din e-post till din SuperOffice CRM för e-postklienter som inte kan anslutas via WebTools. Läs om hur du konfigurerar inkorgen och loggar in första gången.
-keywords: e-post, inkorg
-author: SuperOffice Product and Engineering
-date: 05.12.2025
-version: 10.4
-topic: howto
+description: Läs om hur du konfigurerar och loggar in på inkorgen i SuperOffice. Den här funktionen är ett alternativ till WebTools för att koppla din e-post till SuperOffice CRM.
+keywords: SuperOffice Inkorg, inkorgen i SuperOffice, konfigurera inkorg, e-postinställningar, IMAP, e-postanslutning
+author: Bergfrid Dias
+date: 05.28.2025
+version: 10.5
+topic: concept
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: sv
 ---
 
 # Konfigurera inkorgen i SuperOffice
 
-Inkorgen i SuperOffice är ett alternativt sätt att koppla din e-post till din SuperOffice CRM för e-postklienter som inte kan anslutas via WebTools.
+Inkorgen i SuperOffice är ett alternativt sätt att koppla din e-post till SuperOffice CRM. Den är avsedd för användare som inte kan använda [WebTools][9]. Inkorgen stöder endast IMAP-konton.
+
+> [!NOTE]
+> Inkorgen i SuperOffice stöder endast **ett** e-postkonto per användare. Om WebTools är installerat och anslutet till din e-post är funktionen Inkorg inte tillgänglig.
 
 ## Innan du börjar
 
-* Kontrollera att IMAP är aktiverat i din e-postklient. Inkorgen i SuperOffice stöder de flesta IMAP-servrar.
+* Kontrollera att **SuperOffice CRM** är vald som [standard e-postklient][8] i **Lokala inställningar**.
 
-* För att du ska kunna skicka e-post från SuperOffice CRM måste e-postadressen du ska använda med inkorgen i SuperOffice vara densamma som den första e-postadress som har registrerats på ditt kontaktkort/-fönster.
+* Kontrollera att **IMAP är aktiverat** i din e-postklient.
 
-![Du kan kontrollera vilken e-postadress du har registrerat på ditt kontaktkort -screenshot][img2]
+* Bekräfta att **e-postadressen** du vill använda matchar den primära e-postadressen som är registrerad på ditt [kontaktkort][1] i SuperOffice.
 
-## Konfigurera e-postkonto
+## Anslut ditt e-postkonto
 
-För att komma åt e-post måste du ange vissa uppgifter om ditt e-postkonto.
+1. Klicka på <i class="ph ph-at" aria-hidden="true"></i> **Inkorg** i navigatorn.
 
-<!-- Prev YT video tag QoAanZgQs5A -->
+    Första gången du öppnar inkorgen visas dialogrutan **Konfigurera e-postkonto**.
 
-1. Klicka på ikonen Inkorg i navigatormenyn. Fönstret **Konfigurera e-postkonto** visas första gången du öppnar inkorgen.
+    ![Dialogrutan Konfigurera e-postkonto med fältet för e-postadress och knappen Nästa -screenshot][img1]
 
-1. I fältet **E-postkonto** anger du e-postadressen för det konto du vill använda i SuperOffice.
+1. Ange den e-postadress du vill använda i fältet **E-postkonto**.
 
-    ![x -screenshot][img3]
+1. Klicka på **Nästa**.
 
-1. Om du vill ange information för inkommande och utgående e-post klickar du på **Avancerade inställningar**. Om inte, klickar du på **Nästa**. SuperOffice försöker då ange den här informationen åt dig.
+    * SuperOffice försöker identifiera din e-postleverantör och omdirigerar dig till inloggning.
+    * Om lösenordet är sparat hos leverantören kan autentiseringen slutföras automatiskt.
+    * Om inte, ombeds du att ange lösenordet direkt hos leverantören (till exempel Microsoft eller Google).
+    * När autentiseringen har slutförts visas inkorgen i SuperOffice.
 
-1. I fältet **Lösenord** anger du ditt lösenord.
+1. Om autentiseringen misslyckas eller leverantören inte kan identifieras visas dialogrutan **Avancerade inställningar**. Du kan då ange serverinställningar manuellt.
 
-1. Klicka på **Logga in**.
+## Konfigurera avancerade inställningar
 
-    * Om SuperOffice känner igen e-postleverantören (t.ex. Gmail) konfigureras serverinställningarna automatiskt och inkorgen synkroniseras.
-    * Om systemet inte hittar rätt uppgifter eller om e-postadressen och lösenordet du angav inte stämmer öppnas dialogrutan **Avancerade inställningar**. Ange eller kontrollera konfigurationsuppgifterna för inkommande och utgående servrar manuellt.
+Om automatisk konfiguration misslyckas måste du ange inställningarna för e-postservern manuellt. Alla obligatoriska fält måste fyllas i för att inkorgen i SuperOffice ska fungera korrekt.
 
-## Så lägger du till serverinformation manuellt
+1. Ange inställningar för inkommande e-post:
 
-### Inställningar för inkommande e-post
+    * **Server för inkommande e-post:** Adressen till din IMAP-server
+    * **Användarnamn:** Vanligtvis din fullständiga e-postadress
+    * **Lösenord:** Lösenordet till din e-post
+    * **SSL:** Aktivera eller inaktivera beroende på leverantörens krav
 
-För att dina e-postmeddelanden ska importeras till SuperOffice CRM måste du ange uppgifter om IMAP-servern, som du hittar i inställningarna för din e-postklient.
+1. Ange inställningar för utgående e-post:
 
-* Användarnamn: din fullständiga e-postadress
-* Lösenord: lösenordet för ditt e-postkonto
-* SSL: På/Av – beror på e-postleverantörens inställningar (se inställningar för Outlook och Gmail)
+    * **Server för utgående e-post:** Adressen till din SMTP-server
+    * **Användarnamn**, **Lösenord** och **SSL**: samma som för inkommande
 
-### Inställningar för utgående e-post
+1. Klicka på **Spara** för att koppla kontot.
 
-Om du vill skicka e-post från SuperOffice CRM anger du uppgifter om din SMTP-server.
+![Avancerade inställningar för e-postkonto -screenshot][img4]
 
-* Användarnamn: din fullständiga e-postadress
-* Lösenord: lösenordet för ditt e-postkonto
-* SSL: beror på e-postleverantörens inställningar (se inställningar för Outlook och Gmail)
+## Koppla från eller ändra ditt e-postkonto
 
-![Avancerade inställningar – gå till inkorgen för att manuellt ange korrekta uppgifter om e-postservern -screenshot][img4]
+Du kan koppla bort det aktuella e-postkontot och valfritt ansluta ett nytt konto.
 
-## Ändra e-postkonfigurationen i SuperOffice-inkorgen
+1. Klicka på <i class="ph ph-user-circle" aria-label="Personliga inställningar"></i> i toppraden och välj **Alternativ för e-post**.
 
-1. Om du vill redigera eller ta bort ditt kopplade e-postkonto klickar du på profilikonen längst upp till höger och väljer **Alternativ för e-post**.
+1. Gå till fliken **E-postkonto**.
 
-    ![Alternativ för e-post -screenshot][img5]
+    ![Fliken E-postkonto med knappen Redigera/ta bort -screenshot][img6]
 
-1. Välj fliken **E-postkonto** och klicka på knappen **Redigera/ta bort**.
+1. Klicka på **Redigera/ta bort** för att koppla från kontot.
 
-    ![Alternativ för e-post -screenshot][img6]
+    * Detta öppnar samma dialogruta som används vid första anslutningen.
+    * Stäng dialogen för att endast koppla bort kontot.
+    * Ange en ny e-postadress och följ stegen för att återansluta.
 
-## Varför uppdateras inte e-postlistan?
+> [!NOTE]
+> Att ta bort ett konto raderar **inte** själva e-postkontot (till exempel ditt Gmail- eller Outlook-konto). Det kopplas endast bort från SuperOffice.
 
-Vissa e-postleverantörer, till exempel Gmail, blockerar inloggningsförsök från okända appar. Kontrollera din inkorg för att se om din e-postleverantör har skickat information till dig om ett obehörigt inloggningsförsök. Följ anvisningarna i e-postmeddelandet för att ge SuperOffice åtkomst till ditt konto.
+## Felsökningstips
+
+* Inkorgen i SuperOffice stöder **inte POP3**. Endast IMAP är tillåtet.
+
+* Om inkorgen inte uppdateras kan det bero på att din e-postleverantör blockerar anslutningen.
+  * Kontrollera om du har fått ett meddelande om ett blockerat eller obehörigt inloggningsförsök.
+  * Följ instruktionerna för att ge SuperOffice åtkomst till kontot.
+
+* **Gmail-användare:** Från och med januari 2025 är IMAP aktiverat som standard. Om du ombeds ange lösenord, använd ett **applösenord** i stället för ditt vanliga Gmail-lösenord.
 
 > [!TIP]
-> För att komma åt e-postalternativen går du till <i class="ph ph-user-circle" aria-hidden="true"></i> **Personliga inställningar** > **Alternativ för e-post**.
+> För att justera layout, teckensnitt eller beteende för meddelanden, gå till <i class="ph ph-user-circle" aria-hidden="true"></i> **Personliga inställningar** > **Alternativ för e-post** > fliken **Allmänt**.
+
+## Relaterat innehåll
+
+* [Så här aktiverar du IMAP i Office 365][11] – FAQ
+* [Så här skapar du ett applösenord i Google för tvåstegsverifiering med SuperOffice Inkorg][12] – FAQ
+* [Ändra standard e-postklient i SuperOffice][8]
 
 <!-- Referenced links -->
+[1]: ../../../contact/learn/index.md
+[8]: ../../learn/change-default-mail-client.md
+[9]: ../../../webtools/learn/index.md
+[11]: https://learn.microsoft.com/en-au/exchange/troubleshoot/user-and-shared-mailboxes/pop3-imap-owa-activesync-office-365
+[12]: https://community.superoffice.com/en/support-faqs/faq/how-do-i-generate-a-googleapp-password-to-use-2-step-verification-with-superoffice-inbox/
 
 <!-- Referenced images -->
-[img2]: ../../../../media/loc/en/email/getstarted-contact-mycontactcard.png
-[img3]: ../../../../media/loc/en/email/getstarted-inbox-login.png
+[img1]: ../../../../media/loc/en/email/inbox-setup-dialog.png
 [img4]: ../../../../media/loc/en/email/so-inbox-advanced-settings.png
-[img5]: ../../../../media/loc/en/email/email-options-general.png
 [img6]: ../../../../media/loc/en/email/email-options-account.png

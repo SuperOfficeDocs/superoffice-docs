@@ -4,12 +4,12 @@ title: Google Workspace som din lösning
 description: Hur du ansluter ditt Google Workspace e-postkonto, dokument och kalender till SuperOffice.
 keywords: Google Workspace, Gmail, e-post, dokoment, kalender, inbjudning
 author: Bergfrid Dias
-date: 08.28.2023
-version: 10
+date: 05.28.2025
+version: 10.5
 topic: howto
-language: sv
 audience: person
 audience_tooltip: SuperOffice CRM
+language: sv
 ---
 
 # Google Workspace som din lösning
@@ -22,7 +22,7 @@ Med Google Workspace som din lösning finns det flera sätt att ansluta ditt e-p
 
 Välj ett av följande alternativ:
 
-* [SuperOffice Inboks][1] (standard). [Titta på den här videon för att komma igång][10].
+* [SuperOffice Inboks][1] (standard).
 
 * [Gmail Link-integration][2] - om du redan använder Gmail och vill få tillgång till viktig information och funktioner från SuperOffice direkt i din e-post och arkivera e-post i SuperOffice.
 
@@ -51,5 +51,4 @@ Välj ett av följande alternativ:
 [1]: ../../../email/inbox/learn/setup.md
 [2]: ../../../email/gmail-link/learn/index.md
 [3]: ../../../../en/document/cloud/g-suite/index.md
-[10]: https://www.youtube.com/embed/QoAanZgQs5A
 [11]: http://online.superoffice.com/appstore/superoffice-as/superoffice-gmail-link
