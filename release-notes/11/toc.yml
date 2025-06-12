@@ -26,8 +26,15 @@ items:
 #  items:
 #  - name: 11.x update
 #    href: marketing/11.x-update.md
-#- name: API
-#  href: api/index.md
-#  items:
-#  - name: 11.1 update
-#    href: api/11.1-update.md
+- name: API
+  href: api/index.md
+  items:
+  - name: 11.1 update
+    href: api/11.1-update.md
+    items:
+    - name: Continuous Database Changes
+      href: api/11.1/11.1-cdd-update.md
+    - name: NetServer Core Changes
+      href: api/11.1/11.1-core-update.md
+    - name: NetServer Services Changes
+      href: api/11.1/11.1-services-update.md

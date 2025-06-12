@@ -11,7 +11,9 @@ topic: reference
 
 # API changes
 
+Version 11 of the API reference includes many changes from the v10.5 release, and the changes listed below are listed by major.minor version.
+
 * [(11.1)][1]
 
 <!-- Referenced links-->
-[1]: 11.1.md
+[1]: 11.1/11.1-update.md

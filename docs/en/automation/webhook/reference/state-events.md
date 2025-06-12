@@ -81,7 +81,15 @@ X-SuperOffice-EventId: 1848cc1f-d395-49ba-9b35-04a9269996d4
   "PrimaryKey": 66,
   "ContextIdentifier": "Cust12345",
   "ChangedByAssociateId": 0,
-  "WebhookName": "Name you provided"
+  "WebhookName": "Name you provided",
+  "FieldValues": {
+    "events": 1,
+    "registered": "2025-05-14T16:11:02.4593434+02:00",
+    "registered_associate_id": 5,
+    "state": 2,
+    "updated": "0001-01-01T00:00:00",
+    "updated_associate_id": 0
+  }
 }
 ```
 
@@ -104,6 +112,14 @@ X-SuperOffice-EventId: 1848cc1f-d395-49ba-9b35-04a9269996d4
   "PrimaryKey": 66,
   "ContextIdentifier": "Cust12345",
   "ChangedByAssociateId": 0,
-  "WebhookName": "Name you provided"
+  "WebhookName": "Name you provided",
+  "FieldValues": {
+    "events": 1,
+    "registered": "2025-05-14T16:11:02.4593434+02:00",
+    "registered_associate_id": 5,
+    "state": 2,
+    "updated": "0001-01-01T00:00:00",
+    "updated_associate_id": 0
+  }
 }
 ```

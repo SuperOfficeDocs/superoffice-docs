@@ -96,7 +96,17 @@ X-Superoffice-Signature: X1FmmRIXuzH8o0MDanva1lnuNZXoix6M0US1S64s+e8=
   "Entity": "salestakeholder",
   "ContextIdentifier": "Cust1234",
   "ChangedByAssociateId": 316,
-  "WebhookName":"Name you provided"
+  "WebhookName":"Name you provided",
+  "FieldValues": {
+    "contact_id": 1,
+    "person_id": 4,
+    "registered": "2025-05-14T16:11:02.4593434+02:00",
+    "registered_associate_id": 5,
+    "sale_id": 8,
+    "stakeholderrole_id": 1,
+    "updated": "0001-01-01T00:00:00",
+    "updated_associate_id": 0
+  }
 }
 ```
 
@@ -104,17 +114,27 @@ X-Superoffice-Signature: X1FmmRIXuzH8o0MDanva1lnuNZXoix6M0US1S64s+e8=
 
 ```json
 {
-    "EventId":"88f91933-edce-4c1a-8ded-ade8e2f72434",
-    "Timestamp":"2018-04-05T08:28:01.5732501Z",
+  "EventId":"88f91933-edce-4c1a-8ded-ade8e2f72434",
+  "Timestamp":"2018-04-05T08:28:01.5732501Z",
     "Changes":[],
     "Values": {
       "sale_id": 4
-    },
-    "Event":"salestakeholder.deleted",
-    "PrimaryKey":18,
-    "Entity":"salestakeholder",
-    "ContextIdentifier":"Cust54321",
-    "ChangedByAssociateId":5,
-    "WebhookName":"Name you provided"
+  },
+  "Event":"salestakeholder.deleted",
+  "PrimaryKey":18,
+  "Entity":"salestakeholder",
+  "ContextIdentifier":"Cust54321",
+  "ChangedByAssociateId":5,
+  "WebhookName":"Name you provided",
+  "FieldValues": {
+    "contact_id": 1,
+    "person_id": 4,
+    "registered": "2025-05-14T16:11:02.4593434+02:00",
+    "registered_associate_id": 5,
+    "sale_id": 8,
+    "stakeholderrole_id": 1,
+    "updated": "0001-01-01T00:00:00",
+    "updated_associate_id": 0
+  }  
 }
 ```

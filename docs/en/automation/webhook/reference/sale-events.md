@@ -170,7 +170,35 @@ X-Superoffice-Signature: X1FmmRIXuzH8o0MDanva1lnuNZXoix6M0US1S64s+e8=
   "Entity": "sale",
   "ContextIdentifier": "Cust1234",
   "ChangedByAssociateId": 316,
-  "WebhookName":"Name you provided"
+  "WebhookName":"Name you provided",
+  "FieldValues": {
+    "activeLinks": 0,
+    "appointment_id": 0,
+    "associate_id": 5,
+    "comptr_id": 0,
+    "contact_id": 5,
+    "credited_id": 0,
+    "currency_id": 36,
+    "done": 1,
+    "group_idx": 2,
+    "person_id": 8,
+    "probability_idx": 1,
+    "project_id": 0,
+    "reason_id": 0,
+    "reasonSold_id": 0,
+    "reasonStalled_id": 0,
+    "registered": "2020-01-20T13:39:40",
+    "registered_associate_id": 5,
+    "saleTypeCat_id": 3,
+    "saleType_id": 3,
+    "saledate": "2020-02-13T00:00:00",
+    "source_id": 4,
+    "status": 1,
+    "updated": "2025-05-14T15:56:39.5450964+02:00",
+    "updated_associate_id": 5,
+    "userdef2_id": 0,
+    "userdef_id": 0
+  }
 }
 ```
 
@@ -192,11 +220,41 @@ X-Superoffice-Signature: X1FmmRIXuzH8o0MDanva1lnuNZXoix6M0US1S64s+e8=
   "Entity":"sale",
   "ContextIdentifier":"Cust54321",
   "ChangedByAssociateId":5,
-  "WebhookName":"Name you provided"
+  "WebhookName":"Name you provided",
+  "FieldValues": {
+    "activeLinks": 0,
+    "appointment_id": 0,
+    "associate_id": 5,
+    "comptr_id": 0,
+    "contact_id": 5,
+    "credited_id": 0,
+    "currency_id": 36,
+    "done": 1,
+    "group_idx": 2,
+    "person_id": 8,
+    "probability_idx": 1,
+    "project_id": 0,
+    "reason_id": 0,
+    "reasonSold_id": 0,
+    "reasonStalled_id": 0,
+    "registered": "2020-01-20T13:39:40",
+    "registered_associate_id": 5,
+    "saleTypeCat_id": 3,
+    "saleType_id": 3,
+    "saledate": "2020-02-13T00:00:00",
+    "source_id": 4,
+    "status": 1,
+    "updated": "2025-05-14T15:56:39.5450964+02:00",
+    "updated_associate_id": 5,
+    "userdef2_id": 0,
+    "userdef_id": 0
+  }
 }
 ```
 
 ## Sale.Sold
+
+There are no field values for this event. Use the changed event instead.
 
 ```json
 {
@@ -218,6 +276,8 @@ X-Superoffice-Signature: X1FmmRIXuzH8o0MDanva1lnuNZXoix6M0US1S64s+e8=
 ```
 
 ## Sale.Lost
+
+There are no field values for this event. Use the changed event instead.
 
 ```json
 {
