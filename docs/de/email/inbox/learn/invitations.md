@@ -1,37 +1,47 @@
 ---
 uid: help-de-email-inbox-invitations
-title: Einladungen empfangen
-description: Einladungen empfangen
-author: SuperOffice RnD
-date: 07.04.2022
-keywords: E-Mail
+title: Einladungen annehmen
+description: Erfahren Sie, wie Sie Kalendereinladungen im SuperOffice Posteingang annehmen und zu Ihrem Kalender hinzufügen
+keywords: Einladung, ical, ics, Kalender, Tagebuch, Besprechung annehmen, Benachrichtigung, Posteingang, Folgeaufgabe
+author: Bergfrid Dias
+date: 05.28.2025
+version: 10.5
 topic: howto
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: de
 ---
 
 # Einladungen annehmen
 
-Sie können Einladungen von einer Person außerhalb Ihrer Organisation erhalten, einfach annehmen und Ihrem Kalender hinzufügen. Dies setzt voraus, dass die Einladungs-E-Mail eine iCal-Datei (.ics.) mit den Einladungsdaten enthält. In Ihrem Posteingang werden E-Mails mit iCal-Einladungen mit folgenden Symbolen angezeigt: <i class="ph ph-paperclip" aria-label="Paperclip"></i> und <i class="ph ph-calendar-blank" aria-label="Calendar"></i>.
+Sie können Kalendereinladungen von Personen außerhalb Ihrer Organisation empfangen und die Folgeaufgabe in Ihrem SuperOffice-Kalender übernehmen. Die Einladungen müssen eine iCal-Datei (`.ics`) enthalten. E-Mails mit Einladungen sind mit folgenden Symbolen gekennzeichnet:
+<i class="ph ph-paperclip" aria-label="Paperclip"></i>
+<i class="ph ph-calendar-blank" aria-label="Calendar"></i>
 
-> [!NOTE]
-> Wenn der Absender/Organisator eine registrierte (eindeutige) Person in SuperOffice CRM ist, werden Einladungen automatisch als vorläufige Besprechungen in Ihrem Tagebuch hinzugefügt. Vorläufige Besprechungen können auch für andere Mitarbeiter erstellt werden, je nachdem, ob die Einstellung **Eingehende Einladungen verwalten, Vorschläge deaktivieren** (unter **E-Mail**) aktiv ist oder nicht.
+Wenn der Organisator der Besprechung eine eindeutige registrierte Person in SuperOffice CRM ist, wird die Einladung automatisch als vorläufige Folgeaufgabe in Ihrem Kalender eingetragen. Ob dies auch für andere Benutzer geschieht, hängt von den E-Mail-Einstellungen unter **Einstellungen und Verwaltung** ab.
 
-## Annehmen einer Einladung
+## Schritte
 
-1. Gehen Sie zur Schaltfläche E-Mail.
+1. Wählen Sie im Posteingang die E-Mail aus, die die Einladung enthält.
 
-2. Wählen Sie eine Nachricht mit einer Einladung aus.
+1. Überprüfen Sie vor dem Annehmen eventuelle zusätzliche Anhänge.
 
-    > [!NOTE]
-    > Wenn die Nachricht Anhänge (zusätzlich zur iCal/ics-Datei) enthält, die Sie behalten möchten, müssen Sie sie archivieren oder herunterladen, *bevor* Sie auf die Einladung antworten. Wenn Sie die Einladung annehmen oder ablehnen, wird die Nachricht aus dem Posteingang entfernt und an den Ordner **Gelöscht** gesendet.
-    >
-    > Klicken Sie auf den Pfeil neben dem zu speichernden Anhang und wählen Sie **Herunterladen** oder **Archivieren** aus.
+    > [!CAUTION]
+    > Wenn Sie die Einladung annehmen oder ablehnen, wird die E-Mail aus dem Posteingang entfernt und in den Ordner **Gelöscht** verschoben. Wenn Sie Anhänge behalten möchten, [archivieren oder laden Sie sie vorher herunter][1].
 
-3. Klicken Sie auf die Schaltfläche **Annehmen**.
+1. Klicken Sie auf **Annehmen** und wählen Sie eine der folgenden Optionen:
 
-4. Wählen Sie eine der folgenden Optionen:
+    * **Akzeptieren und Absender benachrichtigen**
+    * **Akzeptieren, aber Absender nicht benachrichtigen**
 
-    * Akzeptieren und Absender benachrichtigen
-    * Akzeptieren, aber Absender nicht benachrichtigen
+Die Folgeaufgabe wird in Ihrem Kalender übernommen und die Nachricht aus dem Posteingang entfernt.
 
-Die Nachricht wird aus dem Posteingang entfernt und die Besprechung wird zu Ihrem Kalender hinzugefügt.
+## Verwandte Inhalte
+
+* [E-Mails archivieren][1]
+* [Über Einladungen][2]
+
+<!-- Referenced links -->
+[1]: archive.md#attachment
+[2]: ../../../diary/learn/invitation/index.md

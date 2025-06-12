@@ -3,7 +3,7 @@ uid: help-de-webtools
 title: WebTools
 description: Einführung in SuperOffice WebTools.
 author: SuperOffice RnD, Miriam Eirin Hiorth Johnson, Bergfrid Dias
-date: 12.04.2023
+date: 28.05.2025
 keywords: WebTools, Dokument, E-Mail, Mail Link
 topic: concept
 language: de
@@ -76,7 +76,7 @@ Doppelklicken Sie auf die SuperOffice-Eule in Ihrer Symbolleiste, um WebTools au
 
 ## Zugehörige Inhalte
 
-* [Wie man den SuperOffice Posteingang verwendet][7] - FAQ
+* [Wie man den SuperOffice Posteingang verwendet][7]
 * [E-Mail, Dokumente und Kalender verbinden][8]
 * [E-Mail in SuperOffice CRM speichern][4]
 * [Dokument in SuperOffice CRM speichern][5]
@@ -88,7 +88,7 @@ Doppelklicken Sie auf die SuperOffice-Eule in Ihrer Symbolleiste, um WebTools au
 [3]: https://community.superoffice.com/no/support-faqs/faq/what-to-do-when-superoffice-archiving-button-has-disappeared-from-outlook/
 [4]: ../../email/learn/index.md
 [5]: ../../document/learn/create.md
-[7]: https://community.superoffice.com/no/support-faqs/faq/how-do-i-start-using-the-superoffice-inbox/
+[7]: ../../email/inbox/learn/index.md
 [8]: ../../learn/getting-started/connect-email-doc/index.md
 [9]: https://community.superoffice.com/en/product-releases/nyheter/produkt/document-locking/
 [10]: ../../../en/ui/soprotocol/index.md

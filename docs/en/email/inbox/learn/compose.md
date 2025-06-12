@@ -2,6 +2,7 @@
 uid: help-en-email-inbox-compose
 title: Compose email
 description: Learn how to write and send email using SuperOffice Inbox
+keywords: compose email, new email
 author: Bergfrid Dias
 date: 05.28.2025
 version: 10.5
@@ -14,7 +15,7 @@ language: en
 
 # Compose email
 
-Use SuperOffice Inbox to write new messages and reply to incoming email. You can include attachments, insert reusable content, and archive your messages to CRM.
+Use SuperOffice Inbox to write new messages and reply to incoming email. You can include attachments, insert reusable content, and archive your messages to SuperOffice CRM.
 
 ## Create a new email message
 
@@ -44,7 +45,8 @@ Use SuperOffice Inbox to write new messages and reply to incoming email. You can
 
     ![Insert content into email message -screenshot][img2]
 
-1. Add attachments (optional)
+1. Add attachments (optional):
+
     * Click **Upload file** or drag and drop files.
     * Or, click **Select a CRM document** to attach existing documents.
 

@@ -1,23 +1,51 @@
 ---
 uid: help-de-create-request
 title: Anfrage erstellen
-description: Anfrage erstellen
-author: SuperOffice RnD
-date: 07.04.2022
-keywords: E-Mail
-topic: help
+description: Erfahren Sie, wie Sie in SuperOffice Service basierend auf einer E-Mail-Nachricht eine Anfrage erstellen
+keywords: Anfrage erstellen, Posteingang, Service, Ticket, Kundenservice, E-Mail, Anfrage
+author: Bergfrid Dias
+date: 05.28.2025
+version: 10.5
+topic: howto
+license: serviceessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: de
 ---
 
 # Anfrage erstellen
 
-Mit dieser Funktion können Sie anhand des Absenders und des Textinhalts in einer E-Mail-Nachricht schnell eine Anfrage zu SuperOffice Service hinzufügen.
+Sie können in SuperOffice Service eine neue Anfrage basierend auf dem Absender und Inhalt einer E-Mail-Nachricht erstellen. Wenn der Absender erkannt wird, wird die Anfrage automatisch mit der richtigen Firma und Person verknüpft.
 
-1. Gehen Sie zur Schaltfläche E-Mail.
-2. Wählen Sie die gewünschte E-Mail unter der Schaltfläche E-Mail aus.
-3. Klicken Sie auf <i class="ph ph-archive" aria-hidden="true"></i> **Archivieren**.
-4. Klicken Sie auf **Anfrage erstellen**.
-5. Füllen Sie die relevanten Felder im Dialogfeld aus.
-6. Klicken Sie auf **Speichern**.
-    * Wenn die E-Mail-Adresse des Absenders erkannt wird, wird die Anfrage automatisch mit der richtigen Person und Firma verknüpft.
-    * Wenn die E-Mail-Adresse des Absenders nicht erkannt wird, wird der Absender automatisch als neue Person in SuperOffice Service erfasst.
+## Schritte
+
+1. Wählen Sie im Posteingang eine Nachricht aus.
+
+1. Klicken Sie auf die Schaltfläche **Archivieren** (<i class="ph ph-archive" aria-hidden="true"></i>) und wählen Sie **Anfrage erstellen**.
+
+1. Das Dialogfeld **Anfrage erstellen** wird mit Feldern geöffnet, die basierend auf der E-Mail vorausgefüllt sind:
+
+    * Wählen Sie die passende [Kategorie][4] für die neue Anfrage.
+    * Aktualisieren Sie Betreff, Priorität oder andere Felder bei Bedarf.
+
+    ![Dialogfeld Anfrage erstellen mit E-Mail-Inhalt als Nachricht eingefügt -screenshot][img1]
+
+1. Klicken Sie auf **Speichern**, um die Anfrage zu erstellen.
+
+    * Wenn der Absender erkannt wird, wird die Anfrage automatisch mit der richtigen Person und Firma verknüpft.
+    * Wenn nicht, wird der Absender als neue Person in SuperOffice Service erfasst.
+
+## Verwandte Inhalte
+
+* [E-Mails und Anhänge archivieren][1]
+* [Aufgabe erstellen][2]
+* [Über Anfragen][3]
+
+<!-- Referenced links -->
+[1]: archive.md
+[2]: create-task.md
+[3]: ../../../request/learn/index.md
+[4]: ../../../request/learn/create.md#fields
+
+<!-- Referenced images -->
+[img1]: ../../../../media/loc/en/email/inbox-create-request.png

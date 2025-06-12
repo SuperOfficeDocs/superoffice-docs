@@ -109,7 +109,7 @@ If an activity is highlighted in red type, this means that its provisional date 
 [2]: ../getting-started/preferences.md
 [3]: ../../marketing/mailing/learn/index.md
 [4]: ../../document/learn/index.md
-[5]: ../../email/learn/inbox/compose.md
+[5]: ../../email/inbox/learn/compose.md
 [7]: ../../diary/learn/index.md
 [8]: ../../diary/learn/create-follow-up.md
 [10]: ../../diary/learn/change-completed-status.md

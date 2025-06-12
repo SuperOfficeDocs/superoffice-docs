@@ -4,12 +4,12 @@ title: SuperOffice als Ihre Lösung (Windows)
 description: So verbinden Sie Ihr E-Mail-Konto, Dokumente und Ihren Kalender mit SuperOffice auf Windows.
 keywords: E-Mail, Dokument, Kalender, Einladung, Windows
 author: Bergfrid Dias
-date: 08.28.2023
-version: 10
+date: 05.28.2025
+version: 10.5
 topic: howto
-language: de
 audience: person
 audience_tooltip: SuperOffice CRM
+language: de
 ---
 
 # SuperOffice als Ihre Lösung (Windows)
@@ -27,7 +27,7 @@ Wählen Sie eine der folgenden Optionen:
 
 * [WebTools][2] (Standard).
 
-* [SuperOffice Inbox][1] - wenn Sie WebTools nicht verwenden können. [Sehen Sie sich dieses Video an, um loszulegen][10].
+* [SuperOffice Inbox][1] - wenn Sie WebTools nicht verwenden können.
 
 * [!include[SuperOffice für Outlook](includes/why-superoffice-for-outlook.md)]
 
@@ -47,4 +47,3 @@ Wählen Sie eine der folgenden Optionen:
 [1]: ../../../email/inbox/learn/setup.md
 [2]: ../../../webtools/learn/install.md
 [9]: default-mac.md
-[10]: https://www.youtube.com/embed/QoAanZgQs5A

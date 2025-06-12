@@ -4,12 +4,12 @@ title: Microsoft 365-Integration als Ihre Lösung
 description: So verbinden Sie Ihr  Microsoft 365 E-Mail-Konto, Dokumente und Ihren Kalender mit SuperOffice.
 keywords: Microsoft 365, SharePoint, Outlook, E-Mail, Dokument, Kalender, Einladung
 author: Bergfrid Dias
-date: 08.28.2023
-version: 10
+date: 05.28.2025
+version: 10.5
 topic: howto
-language: de
 audience: person
 audience_tooltip: SuperOffice CRM
+language: de
 ---
 
 # Microsoft 365-Integration als Ihre Lösung
@@ -22,7 +22,7 @@ Mit Microsoft 365 als Lösung gibt es mehrere Möglichkeiten, Ihr E-Mail-Konto, 
 
 Wählen Sie eine der folgenden Optionen:
 
-* [SuperOffice Inbox][1] (Standard). [Sehen Sie sich dieses Video an, um loszulegen][10].
+* [SuperOffice Inbox][1] (Standard).
 
 * [!include[SuperOffice für Outlook](includes/why-superoffice-for-outlook.md)]
 
@@ -46,4 +46,3 @@ Wählen Sie eine der folgenden Optionen:
 <!-- Referenced links -->
 [1]: ../../../email/inbox/learn/setup.md
 [3]: ../../../../en/document/cloud/sharepoint-documents/set-up.md
-[10]: https://www.youtube.com/embed/QoAanZgQs5A

@@ -1,7 +1,7 @@
 ---
 uid: help-de-email
 title: E-Mail
-description: "Mit SuperOffice CRM können Sie Ihre E-Mails auf verschiedene Arten speichern und teilen, damit Sie und Ihr Team produktiver arbeiten können."
+description: Mit SuperOffice CRM können Sie Ihre E-Mails auf verschiedene Arten speichern und teilen, damit Sie und Ihr Team produktiver arbeiten können.
 author: SuperOffice RnD
 date: 02.10.2023
 keywords: E-Mail, E-Mail
@@ -21,7 +21,7 @@ Die Posteingang-Funktion in SuperOffice CRM hängt vom SuperOffice-Client und vo
 
 * [SuperOffice Posteingang][1]
 * [Gmail Link][2] – SuperOffice Gmail Link
-* [SuperOffice Mail Link][6] - SuperOffice Mail Link (Integration von Outlook und Notes)
+* [SuperOffice Mail Link][6] - SuperOffice Mail Link (Integration von Outlook)
 
 ## E-Mail senden
 

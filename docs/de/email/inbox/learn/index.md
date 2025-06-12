@@ -1,39 +1,68 @@
 ---
 uid: help-de-email-inbox
 title: SuperOffice Posteingang
-description: SuperOffice Posteingang
-author: SuperOffice RnD
-date: 07.04.2022
-keywords: E-Mail
+description: Erfahren Sie, wie Sie den SuperOffice Posteingang zum Lesen, Versenden und Verwalten von E-Mails in SuperOffice CRM verwenden
+keywords: SuperOffice Posteingang, E-Mail lesen, E-Mail senden, E-Mail-Client, Posteingang, E-Mail
+author: Bergfrid Dias
+date: 05.28.2025
+version: 10.5
 topic: concept
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: de
 ---
 
-# SuperOffice Posteingang
+# SuperOffice Posteingang <i class="ph ph-at" aria-hidden="true"></i>
 
-Die E-Mail-Funktion in SuperOffice CRM basiert auf einem separaten E-Mail-Client, mit dem Sie über das Internet auf Ihre E-Mails zugreifen können, auch wenn auf Ihrem PC kein E-Mail-Programm lokal installiert ist. In diesem Hauptthema erfahren Sie, wie Sie diese E-Mail-Funktionalität nutzen können.
+Der SuperOffice Posteingang ist ein integrierter E-Mail-Client, mit dem Sie Ihre E-Mails direkt in SuperOffice CRM verwalten können. Sie können Nachrichten, Anhänge und Kalendereinladungen bearbeiten und E-Mails mit Personen, Verkäufen, Projekten oder Anfragen verknüpfen – alles an einem Ort.
 
-## Wie man den Posteingang in SuperOffice CRM aufruft?
+![E-Mail-Vorschau mit ausgewählter Nachricht und verfügbaren Aktionen -screenshot][img1]
 
-Klicken Sie im Navigator auf die Schaltfläche **E-Mail**.
+## Posteingang öffnen
 
-> [!TIP]
-> Wenn Sie auf das Wort **Posteingang** anstelle der eigentlichen Schaltfläche klicken, wird eine Liste angezeigt. Aus der Liste können Sie auswählen, zu welchem E-Mail-Ordner Sie gehen möchten.
+Wählen Sie im Navigator **Posteingang** <i class="ph ph-at" aria-hidden="true"></i>, um den SuperOffice Posteingang zu öffnen.
 
-## Komponenten
+## Aufbau des Posteingangs
 
-Die Ansicht **E-Mail** besteht aus folgenden Hauptkomponenten:
+Die Ansicht des Posteingangs ist in zwei Bereiche unterteilt:
 
-* Auf der linken Seite der Ansicht befindet sich der Posteingang. Sie können zum Beispiel direkt zwischen dem Posteingang und den gesendeten E-Mails wechseln.
-* Auf der rechten Seite können Sie die ausgewählte Nachricht anzeigen und verschiedene Aktionen ausführen.
+* **Linker Bereich:** Zeigt eine Liste von Nachrichten im aktuell ausgewählten Ordner an.
+  * Klicken Sie auf **Neue E-Mail**, um [eine neue Nachricht zu erstellen][3].
+  * Klicken Sie auf den Ordnernamen (z. B. **POSTEINGANG**), um einen anderen Ordner aus Ihrem verbundenen E-Mail-Konto auszuwählen.
+  * Ein Label wie **5 neu** neben dem Ordnernamen zeigt die Anzahl ungelesener Nachrichten in diesem Ordner an.
 
-## Was möchten Sie jetzt tun?
+* **Rechter Bereich:** Zeigt die ausgewählte Nachricht und verfügbare Aktionen wie Antworten, Archivieren und mehr an.
 
-* [E-Mail-Nachrichten anzeigen][1]
-* [E-Mail verfassen][2]
+## Symbole und Funktionen im Posteingang
+
+| Symbol | Beschreibung |
+|---|---|
+| <i class="ph ph-magnifying-glass" aria-label="Search icon"></i> | Durchsuchen Sie den aktuellen Ordner. |
+| <i class="ph ph-sort-ascending" aria-label="Sort ascending icon"></i> / <i class="ph ph-sort-descending" aria-hidden="true"></i> | Sortieren Sie Nachrichten nach Datum, Absender oder Betreff in auf- oder absteigender Reihenfolge. |
+| <i class="ph ph-funnel" aria-label="Filter icon"></i> | Nachrichten nach Kriterien wie Absendertyp, Lesestatus oder Eingangsdatum ein- oder ausblenden. |
+| <i class="ph ph-cloud-slash" aria-label="Not subscribed icon"></i> / <i class="ph ph-cloud-check" aria-label="Subscribed icon"></i> | Zeigt an, ob der ausgewählte Ordner abonniert und synchronisiert ist. Klicken Sie, um das Abonnement umzuschalten. Einige Ordner (z. B. Posteingang und Gesendet) können nicht abbestellt werden. |
+| <i class="ph ph-arrow-clockwise" aria-label="Refresh icon"></i> | Aktualisiert die Nachrichtenliste. |
+
+> [!NOTE]
+> Auch wenn ein Ordner abonniert und aktualisiert ist, werden nur die neuesten E-Mails angezeigt. Standardmäßig lädt SuperOffice E-Mails der letzten 30 Tage (Online) bzw. 180 Tage (Onsite) herunter. Wenden Sie sich an den Support, um diese Grenze bei Bedarf zu ändern.
+
+## Verwandte Inhalte
+
+* [Übersicht über E-Mail-Clients][8]
+* [Posteingang einrichten und E-Mail-Konto verbinden][1]
+* [Nachrichten lesen und verwalten][2]
+* [E-Mails senden und beantworten][3]
+* [E-Mails und Anhänge archivieren][4]
+* [Folgeaufgaben aus E-Mails erstellen][5]
 
 <!-- Referenced links -->
-[1]: preview.md
-[2]: compose.md
+[1]: setup.md
+[2]: preview.md
+[3]: compose.md
+[4]: archive.md
+[5]: create-task.md
+[8]: ../../learn/index.md
 
 <!-- Referenced images -->
+[img1]: ../../../../media/loc/en/email/inbox-preview-message.png
